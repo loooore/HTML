@@ -1,0 +1,146 @@
+:root {
+    --cor0: #02021d;
+    --cor1: #f0f8ff;
+    --cor2: #010031;
+    --cor3: #010127;
+    --cor4: #c8ddf0;
+    --cor5: #050518;
+    --font0: Arial, Helvetica, sans-serif
+}
+
+
+* {
+    font-family: var(--cor1);
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 20px;
+
+}
+
+
+body {
+    height: 100%;
+    background-image: url(img/bolha.png);
+    background-repeat: no-repeat;
+    background-position: -58px 700px;
+    background-size: 250px;
+    background-color: var(--cor0);
+    
+}
+a.external:after {
+    content: '\00A0🐱‍👤';
+}
+header {
+    background-color: var(--cor1);
+    padding: 0px 0px 1px 0px;
+    margin: 0px;
+    min-height: 150px;
+}
+
+
+header > nav {
+    background-color: var(--cor2);
+    background-image: linear-gradient( to bottom, var(--cor2), var(--cor5));
+    color: var(--cor1);
+    padding: 10px;
+}
+
+header > nav > h1 {
+    background-color: transparent;
+    text-align: center;
+    text-shadow: 10px 7px 7px rgba(0, 0, 0, 0.651);
+}
+
+header > nav > p {
+    background-color: transparent;
+    text-align: center;
+    font-size: 17px;
+}
+
+header > nav > a {
+    background-color: transparent;
+    text-decoration: none;
+    text-align: right;
+    font-size: 13px;
+    font-weight: bolder;
+    color: var(--cor1);
+    margin: 5px;
+    transition-duration: .4s;
+}
+
+header > nav > a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
+    padding: 0px;
+}
+
+
+main {
+    min-width: 900px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 100px 20px 100px;
+    margin: 0px;
+}
+
+article {
+    color: var(--cor1);
+    padding: 5px;
+}
+
+article > h2 {
+    padding: 10px;
+    margin: 0px;
+    background-image: linear-gradient(to right, var(--cor2), transparent 70%);
+    border-radius: 100px;
+    text-shadow: 10px 7px 7px rgba(0, 0, 0, 0.651);
+}
+
+article > .conteiner > img {
+    width: 600px;
+    height: auto;
+    display: inline-block;
+    padding: 25px;
+}
+
+article > .conteiner {
+    display: flex;
+    align-items: center;
+}
+
+article > .conteiner1 > img {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    padding: 25px;
+}
+article > .conteiner1 {
+    display: flex;
+    align-items: center;
+}
+
+
+footer {
+    background-color: var(--cor1);
+    padding: 1px 0px 0px 0px;
+    margin: 0px;
+}
+footer > nav {
+    background-color: var(--cor0);
+    color: var(--cor1);
+    padding: 10px;
+}
+footer > nav > p {
+    text-align: center;
+    padding: 1px 0px 0px 0px;
+    margin: 0px;
+}
+footer > nav > p > a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+footer > nav > p > a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
+    padding: 0px;
+}

@@ -1,0 +1,27 @@
+* {
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    margin: 1000;
+    padding: 1000;
+    text-align: center;
+    text-shadow: 1px 1px 20px aliceblue;
+}
+
+.Flexbox-Conteiner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexbox {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 5%;
+    line-height: 200px;
+    text-align: center;
+}

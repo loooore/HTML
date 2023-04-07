@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.Flexbox-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Flexbox {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 2%;
+    line-height: 200px;
+    text-align: center;
+}
+p {
+    text-indent: 50px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}

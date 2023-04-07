@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(173, 217, 255);
+        }
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: inset 5px 3px 7px 1px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            color: rgb(255, 0, 0);
+            background-color: violet;
+            padding: 5px;
+            box-shadow: inset 2px 3px 3px 1px rgba(0, 0, 0, 0.3);
+        }
+        nav > a {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(89, 0, 255);
+        }
+        main {
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+        article{
+            background-color: bisque;
+        }
+        article > aside {
+            background-color: blue;
+        }
+        footer {
+            background-color: azure;
+            color: yellowgreen;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        .bola {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: tomato;
+            border-radius: 50%;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://www.youtube.com/watch?v=JPMm-jyKOaM">aob</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre o clima brasileiro</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quam fugiat hic iure excepturi voluptatibus suscipit magnam, tenetur vitae. Nisi aperiam quas commodi velit rem, labore voluptate reprehenderit iste necessitatibus.</p>
+                <aside>
+                    <p>Artigo escrito por Lore</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Lore</p>
+    </footer>
+    <div class="bola"></div>
+</body>
+</html>
