@@ -1,0 +1,20 @@
+.block {
+    background-image: url(imgs/wallpaper003.jpg);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#q0 {
+    background-position: left top;
+}
+#q1 {
+    background-position: left center;
+}
+#q2 {
+    background-position: right bottom;
+}
+#q3 {
+    background-position: center center;
+}
