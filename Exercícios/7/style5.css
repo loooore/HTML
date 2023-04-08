@@ -1,0 +1,24 @@
+#container {
+    background-image: url(imgs/target001.png);
+    background-size: 100% 100%;
+
+    position: relative;
+    height: 96vh;
+    padding: 10px;    
+    background-color:#BA85FF;
+}
+
+#conteudo {
+    background-image: url(imgs/target001.png);
+    background-size: 100% 100%;
+
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: #05D5FF;
+    
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
