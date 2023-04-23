@@ -5,9 +5,29 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+caption {
+    background: rgba(128, 128, 128, 0.538);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background: rgb(39, 39, 39);
+}
+
+tbody tr:nth-child(even) /* pode colocar odd = impar, e even = par ou, 2n que seria de duas em duas --> nth-child(2n) */ { 
+    background: lightgray;
 }
 
 td, th {
@@ -16,8 +36,11 @@ td, th {
 }
 
 thead, tfoot {
-    background: gray;
+    background-color: rgb(39, 39, 39);
     color: white;
 }
 
+.num {
+    text-align: right;
+}
 

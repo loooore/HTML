@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.cnome {
+    background-color: rgb(106, 244, 244);
+}
+
+.cgrupo {
+    background-color: aquamarine;
+}
+
+.cprof {
+    background-color: rgb(0, 255, 238);
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 6px;
+}
